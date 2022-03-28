@@ -1,0 +1,99 @@
+.bottomBar{
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  min-height: 25px;
+}
+
+
+.mobileToolbar{
+  flex:auto;
+  flex-direction: row;
+}
+
+.iconbutton{
+  position: fixed;
+  right: 0;
+  align-self:flex-end;
+}
+
+.dimm{
+  color: gray;
+}
+
+.senderRoot{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items:baseline;
+}
+
+.messageSender{
+  font-size: large;
+  font-weight: bold;
+}
+
+.time{
+  font-size: small;
+  font-weight: lighter;
+  margin-left: 5%;
+}
+
+.message{
+  font-size: medium;
+  font-weight: normal;
+}
+
+.inputBar{
+  position: fixed;
+  bottom: 25px;
+  max-height: 25px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.inputBox{
+  width: 80%;
+}
+
+.inputButton{
+  width: 15%;
+}
+
+.replyButton{
+  color: aqua;
+  text-decoration: underline;
+  margin-left: 5%;
+  text-align: left;
+}
+
+.breakLine{
+  text-align: center;
+  font-size: small;
+  font-style: italic;
+}
+
+.searchBar{
+  margin-top: 1%;
+  width: 100%;
+}
+
+.active{
+  color:darkseagreen;
+}
+
+.inactive{
+  color:brown; 
+}
+
+.chatscreen{
+  
+  position: relative;
+  height: calc(100vh - 110px);
+  overflow: auto;
+}
