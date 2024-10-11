@@ -16,7 +16,7 @@ const secrets = require('../data/secrets');
 // function authenticate works
 exports.authenticate = async (req, res) => {
   const { email, password } = req.body;
-  console.log(email,password);
+  // console.log(email,password);
   const select = 'SELECT email, keyword, id, users_name, mythoughts FROM users WHERE email = $1';
   const query = {
     text: select,

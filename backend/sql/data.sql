@@ -12,9 +12,9 @@ INSERT INTO users(email, keyword, users_name, mystatus, mythoughts) VALUES ('ann
 
 -- Table workspace
 -- id = 1
-INSERT INTO workspace(workspace_name) VALUES ('CSE183 Summer 2021');
+INSERT INTO workspace(workspace_name) VALUES ('CSE183 Summer 2023');
 -- id = 2
-INSERT INTO workspace(workspace_name) VALUES ('CSE183 Fall 2021');
+INSERT INTO workspace(workspace_name) VALUES ('CSE183 Fall 2023');
 
 -- Connect users to workspaces
 INSERT INTO workspace_user(users_id, workspace_id) VALUES(1,1);

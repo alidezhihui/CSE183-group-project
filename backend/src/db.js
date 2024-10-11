@@ -13,6 +13,4 @@ const query = async (sql, values = []) => {
   return rows;
 }
 
-
-
 module.exports = {query, pool};
